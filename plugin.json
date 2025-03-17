@@ -1,0 +1,11 @@
+{
+    "id": "actcmsvn/momo",
+    "name": "Cổng thanh toán MoMo",
+    "namespace": "ACTCMS\\MoMo\\",
+    "provider": "ACTCMS\\MoMo\\Providers\\MoMoServiceProvider",
+    "author": "ACTCMS Vietnam",
+    "url": "https://actcms.io.vn",
+    "version": "1.0.0",
+    "description": "Tích hợp cổng thanh toán MoMo",
+    "require": ["payment"]
+}
