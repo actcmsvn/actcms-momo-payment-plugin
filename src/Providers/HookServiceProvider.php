@@ -2,12 +2,12 @@
 
 namespace ACTCMS\MoMo\Providers;
 
-use Botble\Payment\Enums\PaymentMethodEnum;
+use ACTCMS\Payment\Enums\PaymentMethodEnum;
 use ACTCMS\MoMo\Services\Gateways\MoMoPaymentService;
 use Collective\Html\HtmlFacade as Html;
 use Illuminate\Http\Request;
 use Illuminate\Support\ServiceProvider;
-use Botble\Payment\Facades\PaymentMethods;
+use ACTCMS\Payment\Facades\PaymentMethods;
 
 class HookServiceProvider extends ServiceProvider
 {

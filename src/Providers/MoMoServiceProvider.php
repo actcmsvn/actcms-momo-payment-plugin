@@ -2,7 +2,7 @@
 
 namespace ACTCMS\MoMo\Providers;
 
-use Botble\Base\Traits\LoadAndPublishDataTrait;
+use ACTCMS\Base\Traits\LoadAndPublishDataTrait;
 use Illuminate\Support\ServiceProvider;
 
 class MoMoServiceProvider extends ServiceProvider

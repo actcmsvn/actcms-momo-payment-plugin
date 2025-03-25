@@ -3,10 +3,10 @@
 namespace ACTCMS\MoMo\Http\Controllers;
 
 use ACTCMS\MoMo\Http\Requests\MoMoPaymentIPNRequest;
-use Botble\Base\Http\Responses\BaseHttpResponse;
+use ACTCMS\Base\Http\Responses\BaseHttpResponse;
 use ACTCMS\MoMo\Http\Requests\MoMoPaymentCallbackRequest;
 use ACTCMS\MoMo\Services\Gateways\MoMoPaymentService;
-use Botble\Payment\Supports\PaymentHelper;
+use ACTCMS\Payment\Supports\PaymentHelper;
 use Illuminate\Http\JsonResponse;
 use Illuminate\Routing\Controller;
 

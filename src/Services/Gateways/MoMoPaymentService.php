@@ -2,8 +2,8 @@
 
 namespace ACTCMS\MoMo\Services\Gateways;
 
-use Botble\Ecommerce\Models\Order;
-use Botble\Payment\Enums\PaymentStatusEnum;
+use ACTCMS\Ecommerce\Models\Order;
+use ACTCMS\Payment\Enums\PaymentStatusEnum;
 use Exception;
 
 class MoMoPaymentService

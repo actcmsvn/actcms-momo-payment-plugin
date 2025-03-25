@@ -2,8 +2,8 @@
 
 namespace ACTCMS\MoMo;
 
-use Botble\PluginManagement\Abstracts\PluginOperationAbstract;
-use Botble\Setting\Models\Setting;
+use ACTCMS\PluginManagement\Abstracts\PluginOperationAbstract;
+use ACTCMS\Setting\Models\Setting;
 
 class Plugin extends PluginOperationAbstract
 {

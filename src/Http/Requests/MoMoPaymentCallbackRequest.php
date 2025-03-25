@@ -2,7 +2,7 @@
 
 namespace ACTCMS\MoMo\Http\Requests;
 
-use Botble\Support\Http\Requests\Request;
+use ACTCMS\Support\Http\Requests\Request;
 
 class MoMoPaymentCallbackRequest extends Request
 {
